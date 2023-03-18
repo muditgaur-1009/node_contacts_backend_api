@@ -32,7 +32,7 @@ const getContact=asyncHandler( async(req,res)=>{
 //@route GET/api/contacts
 //@access public
 const updateContact=asyncHandler( async(req,res)=>{
-    res.status(200).json({message:`Update contact for ${req.params.id}`})
+    res.status(201).json({message:`Update contact for ${req.params.id}`})
 })
 
 
